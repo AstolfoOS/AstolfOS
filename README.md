@@ -21,4 +21,4 @@ For now, there are no ISOs available. You can however upgrade an existing Arch i
    pacman -Sy filesystem astolfos-backgrounds
    ```
 
-Packages are currently unsigned, but I'll add it at some point in the future
+Packages are currently unsigned, but I'll add signing at some point in the future
