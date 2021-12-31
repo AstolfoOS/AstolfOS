@@ -2,7 +2,7 @@
 
 <img src="astolfos-logo.png" width="300" align="right">
 
-AstolfOS is a Linux distribution themed around Astolfo, and it's based on Arch Linux
+AstolfOS is a Linux distribution based on Arch Linux and themed around Astolfo
 
 ## Installation
 
@@ -17,8 +17,9 @@ For now, there are no ISOs available. You can however upgrade an existing Arch i
    ```
 
 2. Install AstolfOS packages:
-   ```shell
-   pacman -Sy filesystem astolfos-backgrounds
+   ```bash
+   pacman -Syu # To install packages which AstolfOS overrides
+   pacman -Sy astolfos-backgrounds
    ```
 
 Packages are currently unsigned, but I'll add signing at some point in the future
