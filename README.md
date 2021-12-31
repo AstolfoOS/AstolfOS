@@ -2,7 +2,7 @@
 
 <img src="astolfos-logo.png" width="300" align="right">
 
-AstolfOS is a Linux distribution based on Arch Linux and themed around Astolfo
+Arch Linux, but with surprises!
 
 ## Installation
 
