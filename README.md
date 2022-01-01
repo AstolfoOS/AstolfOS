@@ -6,7 +6,20 @@ Arch Linux, but with surprises!
 
 ## Installation
 
-For now, there are no ISOs available. You can however upgrade an existing Arch installation by adding the AstolfOS pacman repo and installing some new packages:
+### Fresh install
+
+1. Download the ISO [here](https://astolfo.laurinneff.ch/iso/) (please use the torrent)
+
+2. Optionally verify the signature:
+
+   ```bash
+   gpg --recv-keys DED5EC74298A5DBAE86C6E13ACC6088154D0F6C7
+   gpg --verify astolfos-yyyy.mm.dd-x86_64.iso.sig
+   ```
+
+3. Boot it and follow the [Arch Linux installation guide](https://wiki.archlinux.org/title/Installation_guide)
+
+### Convert an existing Arch Linux install
 
 1. Import and sign my GPG key:
 
